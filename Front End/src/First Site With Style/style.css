@@ -17,6 +17,19 @@ h3 {
     margin-bottom: 10px;
 }
 
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 6px;
+    font-family: 'Lato', sans-serif;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
 p {
     font-size: 15px;
     margin-bottom: 10px;
@@ -29,8 +42,8 @@ ul {
 
 #myid-text {
     font-family: 'DM Sans', sans-serif;
-    
-    }
+
+}
 
 .main-text {
     font-family: 'Quicksand', sans-serif;
@@ -41,4 +54,13 @@ ul {
     width: 1140px;
     margin-left: auto;
     margin-right: auto;
+
+}
+
+img {
+    margin-top: 8px;
+}
+
+.link-press {
+    font-family: 'Lato', sans-serif;
 }
