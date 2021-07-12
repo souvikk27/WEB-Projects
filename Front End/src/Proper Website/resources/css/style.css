@@ -25,12 +25,24 @@ header {
     height: 100vh;
 }
 
+
+section {
+    padding: 80px 0;
+}
+
+
+
 .hero-text-box {
     position: absolute;
     width: 1140px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+
+.box {
+    padding: 1%;
 }
 
 
@@ -43,6 +55,49 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
     word-spacing: 3px;
+}
+
+h2 {
+    font-size: 180%;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #8e44ad;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    
+}
+
+
+.long-copy {
+
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
 }
 
 
@@ -91,14 +146,20 @@ h1 {
 .logo {
     float: left;
     margin-top: -40px;
-    
+
 }
 
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: #8e44ad;
+    margin-bottom: 10px;
+}
 
 .main-nav {
     float: right;
     list-style: none;
-    
+
 }
 
 .main-nav li {
@@ -107,7 +168,7 @@ h1 {
     margin-top: 30px;
 }
 
-.main-nav li a:link, 
+.main-nav li a:link,
 .main-nav li a:visited {
     padding: 8px 0;
     color: white;
@@ -119,25 +180,7 @@ h1 {
 }
 
 
-.main-nav li a:hover, 
+.main-nav li a:hover,
 .main-nav li a:active {
-   border-bottom: 2px solid #a43dd0;
+    border-bottom: 2px solid #a43dd0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
