@@ -184,3 +184,56 @@ h3 {
 .main-nav li a:active {
     border-bottom: 2px solid #a43dd0;
 }
+
+
+/*======== FLEXBOX GALLERY ========*/
+.flex-gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 270px;
+    margin: 10px;
+    border: 1px solid #a43dd0;
+    border-radius: 20px;
+}
+
+.card p, h3 {
+    padding: 10px;
+}
+.card-image {
+    
+    background-color: aqua;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.prof-1 {
+    background-image: url(img/prof1.jpg);
+}
+
+.prof-2 {
+    background-image: url(img/prof2.jpg);
+}
+
+
+.prof-3 {
+    background-image: url(img/prof3.jpg);
+}
+
+
+.prof-4 {
+    background-image: url(img/prof4.jpg);
+}
+
+
+
+
+
+
+
+
+
