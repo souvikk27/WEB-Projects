@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/slider.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
@@ -45,7 +46,10 @@
                 Or sign up to become a Electrofusion Insider, to ensure you’re always in the know.
             </p>
         </div>
-        <br><br><br><br><br><br><br>
+
+    </section>
+
+    <section class="upcoming-events">
         <div class="row">
             <h2>Upcoming Events</h2>
         </div>
@@ -77,42 +81,159 @@
                     If you perform well at a tournament you may even be offered an esports scholarship.</p>
             </div>
         </div>
-        <br><br><br><br><br><br><br>
 
+    </section>
+
+    <section class="mentors">
         <div class="row">
             <h2>Our Mentors</h2>
 
         </div>
         <div class="row flex-gallery">
             <div class="card">
-               <div class="card-image prof-1"></div>
-                <h3>Title</h3>
-                <p>Text</p>
+                <div class="card-image prof-1"></div>
+                <h3>DR. Romik Dey</h3>
+                <p>Professor & HOD <br>
+                    Research Area:
+                    Power Quality, Power Electronics and Machine Drives <br>
+                    Experince: 34 years</p>
             </div>
             <div class="card">
-               <div class="card-image prof-2"></div>
-                <h3>Title</h3>
-                <p>Text</p>
+                <div class="card-image prof-2"></div>
+                <h3>Dr. Kaustav Basu</h3>
+                <p>Associate Professor <br>
+                    Research Area:
+                    Data Acquisition System
+                    Instrumentation,
+                    Web Technology (PHP, MySql, Bootstrap) <br>
+                    Experince: 20 years</p>
             </div>
 
             <div class="card">
-               <div class="card-image prof-3"></div>
-                <h3>Title</h3>
-                <p>Text</p>
+                <div class="card-image prof-3"></div>
+                <h3>Dr. Biplab Ghosh</h3>
+                <p>Assistant Professor <br>
+                    Research Area:
+                    Modeling ,analysis and implementation of soft switched dc–dc converters and their control. <br>
+                    Experince: 13 years</p>
             </div>
 
             <div class="card">
-               <div class="card-image prof-4"></div>
-                <h3>Title</h3>
-                <p>Text</p>
+                <div class="card-image prof-4"></div>
+                <h3>Dr. Anurima Mondal</h3>
+                <p>Assistant Professor <br>
+                    Research Area:
+                    power system operation control, micro-grid, soft computing algorithms <br>
+                    Experince: 07 years</p>
             </div>
-
-
-
-
-
         </div>
     </section>
 
+    <section class="past-events">
+        <div class="row">
+            <h2>past-events</h2>
+        </div>
 
-</body></html>
+        <!-- Gallery container -->
+        <div class="container">
+
+
+            <input type="radio" id="i1" name="images" checked />
+            <input type="radio" id="i2" name="images" />
+            <input type="radio" id="i3" name="images" />
+            <input type="radio" id="i4" name="images" />
+            <input type="radio" id="i5" name="images" />
+            <input type="radio" id="i6" name="images" />
+            <input type="radio" id="i7" name="images" />
+            <input type="radio" id="i8" name="images" />
+
+            <div class="slide_img" id="one">
+
+                <img src="resources/img/img8.jpg">
+
+                <label class="prev" for="i8"><span></span></label>
+                <label class="next" for="i2"><span></span></label>
+
+            </div>
+
+            <div class="slide_img" id="two">
+
+                <img src="resources/img/img1.jpg">
+
+                <label class="prev" for="i1"><span></span></label>
+                <label class="next" for="i3"><span></span></label>
+
+            </div>
+
+            <div class="slide_img" id="three">
+                <img src="resources/img/img6.jpg">
+
+                <label class="prev" for="i2"><span></span></label>
+                <label class="next" for="i4"><span></span></label>
+            </div>
+
+
+            <div class="slide_img" id="four">
+                <img src="resources/img/img5.jpg">
+
+                <label class="prev" for="i3"><span></span></label>
+                <label class="next" for="i5"><span></span></label>
+
+            </div>
+
+            <div class="slide_img" id="five">
+                <img src="resources/img/img4.jpg">
+
+                <label class="prev" for="i4"><span></span></label>
+                <label class="next" for="i6"><span></span></label>
+
+            </div>
+
+            <div class="slide_img" id="six">
+                <img src="resources/img/img3.jpg">
+
+                <label class="prev" for="i5"><span></span></label>
+                <label class="next" for="i7"><span></span></label>
+                
+
+            </div>
+            <div class="slide_img" id="seven">
+                <img src="resources/img/img2.jpg">
+
+                <label class="prev" for="i6"><span></span></label>
+                <label class="next" for="i8"><span></span></label>
+                
+
+            </div>
+            <div class="slide_img" id="eight">
+                <img src="resources/img/img7.jpg">
+
+                <label class="prev" for="i7"><span></span></label>
+                <label class="next" for="i1"><span></span></label>
+                
+
+            </div>
+
+            <div id="nav_slide">
+                <label for="i1" class="dots" id="dot1"></label>
+                <label for="i2" class="dots" id="dot2"></label>
+                <label for="i3" class="dots" id="dot3"></label>
+                <label for="i4" class="dots" id="dot4"></label>
+                <label for="i5" class="dots" id="dot5"></label>
+                <label for="i6" class="dots" id="dot6"></label>
+                <label for="i7" class="dots" id="dot7"></label>
+                <label for="i8" class="dots" id="dot8"></label>
+            </div>
+
+        </div>
+
+
+     
+
+
+    </section>
+
+
+</body>
+
+</html>

@@ -83,7 +83,7 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 15px;
-    
+
 }
 
 
@@ -195,21 +195,32 @@ h3 {
 .card {
     width: 270px;
     margin: 10px;
-    border: 1px solid #a43dd0;
+    border: 1px solid #8e44ad;
     border-radius: 20px;
 }
 
-.card p, h3 {
+.card p,
+h3 {
     padding: 10px;
 }
+
 .card-image {
-    
+
     background-color: aqua;
     height: 170px;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 20px 20px 0 0;
 }
+
+.card:hover {
+    background-color: #8e44ad;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
 
 .prof-1 {
     background-image: url(img/prof1.jpg);
@@ -228,6 +239,24 @@ h3 {
 .prof-4 {
     background-image: url(img/prof4.jpg);
 }
+
+/*====GALLERY END=======*/
+
+
+
+/*=========EVENT SHOWCASE==========*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
