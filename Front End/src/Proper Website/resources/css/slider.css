@@ -36,7 +36,7 @@
     height: inherit;
     position: absolute;
     top: 0;
-    background-color: rgba(219, 148, 204, 0.2);
+    background-color: rgba(252, 202, 241, 0.2);
     z-index: 99;
     -webkit-transition: .45s;
     transition: .45s;
