@@ -29,6 +29,7 @@ header {
 
 section {
     padding: 80px 0;
+    background-color: #f4f4f4;
 }
 
 
@@ -198,6 +199,7 @@ h3 {
     margin: 10px;
     border: 1px solid #8e44ad;
     border-radius: 20px;
+    box-shadow: 0 2px 2px #aaaaaa;
 }
 
 .card p,
@@ -293,6 +295,60 @@ cite img {
 
 
 /*=========TESTIMONIAL END==========*/
+
+
+/*=========SIGN UP==========*/
+
+
+
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #e3e3e3;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+
+.plan-box div:first-child {
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child {
+    text-align: center;
+    border: 0;
+}
+
+
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 300;
+    color: #8e44ad;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+
+
+/*=========SIGN UP END==========*/
+
+
 
 
 
