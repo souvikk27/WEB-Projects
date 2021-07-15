@@ -318,8 +318,89 @@
                 </div>
             </div>
         </div>
+        <div class="sliding-text">
+            <p class="marquee"><span id="rainbow">We have limited slots available so book your slot as early as possible!</span></p>
+        </div>
     </section>
-
+    <section class="section-form">
+        <div class="row">
+            <h2>Registration</h2>
+        </div>
+        <div class="row">
+            <form method="post" action="#" class="reg-form">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="email" id="email" placeholder="Email Address" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Package</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <select name="package" id="package">
+                            <option value="starter" selected>Starter</option>
+                            <option value="zoom">Zoom</option>
+                            <option value="premium">Premium</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="college">Institution Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="college" id="college" placeholder="Name of Institution" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Enter Password</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="password" name="password" id="pwd1" placeholder="Password" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Confirm Password</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="password" name="password" id="pwd2" placeholder="Confirm Password" required>
+                        <button type="submit" class="pure-button pure-button-primary">Confirm</button>
+                    </div>
+                    <script src="resources/js/passmatch.js"></script>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Newsletter</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="checkbox" name="news" id="news" checked> Yes, Please
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>&nbsp;</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="submit" value="Register!">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
 
 
 </body></html>
