@@ -415,6 +415,47 @@ cite img {
 /*=========TEXT SLIDER ENDS==========*/
 
 
+/*====CONTACTS========*/
+
+
+
+.contact-list {
+    background-color: #817c7c;
+}
+
+.contact-box {  
+    width: 90%;
+    margin-left: 5%;
+   
+}
+
+.contact-box div ul {
+    color: beige;
+}
+
+.contact-box div h3 {
+    color: beige;
+}
+
+
+.contact-box ul {
+    list-style: none;
+}
+
+
+
+.contact-box ul li {
+    padding: 5px 0;
+    margin-right: 2px;
+}
+
+.contact-icon i {
+    padding: 0 5px;
+}
+
+
+/*====CONTACTS END========*/
+
 
 /*=========REGISTRATION FORM==========*/
 
@@ -529,9 +570,6 @@ footer {
 }
 
 
-
-
-
 footer p {
     color: #888;
     text-align: center;
@@ -539,6 +577,6 @@ footer p {
 }
 
 
-
+/*====FOOTER END========*/
 
 
