@@ -4,13 +4,15 @@
     box-sizing: border-box;
 }
 
-html {
-    background-color: #ffff;
+html,
+body {
+    background-color: #f4f4f4;
     color: #555;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .row {
@@ -202,7 +204,7 @@ input[type=submit]{
 }
 
 .card {
-    width: 270px;
+    width: 250px;
     margin: 10px;
     border: 1px solid #8e44ad;
     border-radius: 20px;
