@@ -26,36 +26,39 @@ $(document).ready(function () {
         }, 1000);
     });
 
-    $('.js--reach-about').click(function () {
-        $('html, body').animate({
-            scrollTop: $('.js--section-features').offset().top
-        }, 1000);
+    $(function () {
+        $('.smoothScroll').click(function () {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000); 
+                    return false;
+                }
+            }
+        });
     });
 
-    $('.js--reach-event').click(function () {
-        $('html, body').animate({
-            scrollTop: $('.js--this-event').offset().top
-        }, 1000);
-    });
     
-    $('.js--reach-mentor').click(function () {
-        $('html, body').animate({
-            scrollTop: $('.js--this-mentors').offset().top
-        }, 1000);
+// NAVIGATION
+    $('.js--nav-icon').click(function() {
+        var nav = $('.js--main-nav');
+        var icon = $('.js--nav-icon i');
+        
+        nav.slideToggle(200);
+        
+        if (icon.hasClass('ion-navicon-round')) {
+          icon.addClass('ion-close-round');
+            icon.removeClass('ion-navicon-round');
+        } else {
+            icon.addClass('ion-navicon-round');
+            icon.removeClass('ion-close-round');
+        }
+        
+        
     });
-   
-    $('.js--reach-pictures').click(function () {
-        $('html, body').animate({
-            scrollTop: $('.js--this-photo').offset().top
-        }, 1000);
-    });
-    
-    $('.js--reach-plans').click(function () {
-        $('html, body').animate({
-            scrollTop: $('.js--this-plan').offset().top
-        }, 1000);
-    });
-
 
 
 });

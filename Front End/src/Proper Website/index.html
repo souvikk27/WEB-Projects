@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/queries.css">
     <link rel="stylesheet" href="resources/css/slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
@@ -21,14 +22,14 @@
         <nav>
             <div class="row">
                 <img class="logo" src="resources/img/logo.png" alt="Electrofusion">
-                <ul class="main-nav">
-                    <li class="js--reach-about"><a href="#">About</a></li>
-                    <li class="js--reach-event"><a href="#">Events</a></li>
-                    <li class="js--reach-mentor"><a href="#">Mentors</a></li>
-                    <li class="js--reach-pictures"><a href="#">Previous-Events</a></li>
-                    <li class="js--reach-plans"><a href="#">Sign-Up</a></li>
-
+                <ul class="main-nav js--main-nav">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#eventlist">Events</a></li>
+                    <li><a href="#mentorlist">Mentors</a></li>
+                    <li><a href="#photos">Previous-Events</a></li>
+                    <li><a href="#plans">Sign-Up</a></li>
                 </ul>
+                <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
             </div>
         </nav>
         <div class="hero-text-box">
@@ -38,7 +39,7 @@
         </div>
     </header>
 
-    <section class="section-features js--section-features">
+    <section class="section-features js--section-features" id="about">
         <div class="row">
             <h2>About &mdash; us</h2>
             <p class="long-copy">
@@ -51,7 +52,7 @@
 
     </section>
 
-    <section class="upcoming-events js--this-event">
+    <section class="upcoming-events" id="eventlist">
         <div class="row">
             <h2>Upcoming Events</h2>
         </div>
@@ -86,7 +87,7 @@
 
     </section>
 
-    <section class="mentors js--this-mentors">
+    <section class="mentors" id="mentorlist">
         <div class="row">
             <h2>Our Mentors</h2>
 
@@ -131,7 +132,7 @@
         </div>
     </section>
 
-    <section class="past-events js--this-photo">
+    <section class="past-events" id="photos">
         <div class="row">
             <h2>pictures of previous events</h2>
         </div>
@@ -257,7 +258,7 @@
         </div>
     </section>
 
-    <section class="section-plans js--this-plan">
+    <section class="section-plans" id="plans">
         <div class="row">
             <h2>Book your slot today</h2>
         </div>
@@ -480,12 +481,12 @@
 
     </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
-<script src="vendors/js/jquery.waypoints.min.js"></script>
-<script src="resources/js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
 
 </body>
 
