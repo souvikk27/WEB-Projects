@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car parking</title>
+    <link rel="stylesheet" href="/Resources/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+</head>
+
+<body>
+    <div class="site-main-wrapper">
+        <button class="hamberger">
+            <img src="img/hamberger.svg" alt="">
+        </button>
+        <div class="mobile-nav">
+            <div class="mobile-img">
+                <img src="img/logo.png" alt="">
+
+            </div>
+            <button class="times">
+                <img src="img/times.svg" alt="">
+            </button>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#parking-form">Parking</a></li>
+                <li><a href="#table">Parking List</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </div>
+        <header id="home">
+            <div class="container">
+                <nav class="navbar flex align-content" id="main-nav">
+                    <div class="left">
+                        <div class="logo">
+                            <img src="img/logo.png" alt="LOGO">
+                        </div>
+                    </div>
+                    <div class="center">
+                        <ul class="flex">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#parking-form">Parking</a></li>
+                            <li><a href="#table">Parking List</a></li>
+                            <li><a href="#footer">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <button class="bttn btn-one">Sign-Up</button>
+                    </div>
+                </nav>
+                <div class="hero flex align-content ">
+                    <div class="hero-img flex flex1 justify-item">
+                        <img src="img/major-project-bg.jpg" alt="">
+                    </div>
+                    <div class="hero-text flex flex1 column">
+                        <div class="top">
+                            <h1>PARKING <span>GRID</span></h1>
+                            <p>Make Workplace Car Parking Fair, Easy and Frustration-free. Easy parking reservation system for your company. Solve
+                            parking chaos in just a few clicks.</p>
+                            <p>
+                            </p>
+
+                        </div>
+                        <div class="bottom">
+                            <button class="bttn btn-two">
+                               Park Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="about-us" id="about">
+            <div class="container flex">
+                <div class="about-us-img flex flex1">
+                    <img src="img/hero.jpg" alt="">
+                </div>
+                <div class="about-us-text flex flex1 column">
+                    <div class="text">
+                        <h1>About <span>Us</span></h1>
+                        <p>Our Car Park Booking System is designed to make it easier for people to pre-book parking spaces online. Our online
+                            parking reservation system will instantly enhance your website by enabling customers to reserve parking spaces, buy
+                            extra services, and pay online from home or on the go. Car Park Booking System admins can manage parking options
+                            such as add as many car space types as needed, set availability periods and prices, launch promos and discounts.
+                        </p>
+
+                    </div>
+                    <div class="social flex">
+                        <a href="https://www.facebook.com" target="blank"><img src="img/facebook.png" alt=""></a>
+                        <a href="https://www.instagram.com" target="blank"><img src="img/instagram.png" alt=""></a>
+                        <a href="https://www.google.com" target="blank"><img src="img/internet.png" alt=""></a>
+                        <a href="https://www.pinterest.com" target="blank"><img src="img/pinterest.png" alt=""></a>
+                        <a href="https://www.twitter.com" target="blank"><img src="img/twitter.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+ 	<section class="contact-us" id="parking-form">
+            <div class="container">
+                <h1 class="section-heading">Parking <span>Form</span></h1>
+                <p>Feel free to contact if have some issue in filling form.</p>
+
+
+                <div class="form-and-text flex column ">
+                    <div class="img-contact-text">
+                        <div class="contact-img-text flex column align-content justify-ite6">
+                            <img src="img/mobile.jpg" alt="">
+                            <h1>Call Us On</h1>
+                            <h6>+986-874-6757</h6>
+                        </div>
+                        <div class="contact-img-text flex column align-content justify-ite6">
+                            <img src="img/gmail.png" alt="">
+                            <h1>Email At Us</h1>
+                            <h6>carparkingxyz@gmail.com </h6>
+                        </div>
+                        <div class="contact-img-text flex column align-content justify-ite6">
+                            <img src="img/bag.png" alt="">
+                            <h1>Visit Office</h1>
+                            <h6>XYZ city,Delhi </h6>
+                        </div>
+
+                    </div>
+                    <div class="form">
+                        <form class="w-50 mx-auto" id="entryForm">
+                            <h5 class="text-center">Add Car to Parking Lot</h5>
+                            <div class="form-group">
+                                <label for="owner">Owner:</label>
+                                <input type="text" class="form-control rounded-0 shadow-sm" id="owner" placeholder="Owner">
+                            </div>
+                            <div class="form-group">
+                                <label for="car">Car:</label>
+                                <input type="text" class="form-control rounded-0 shadow-sm" id="car" placeholder="Car">
+                            </div>
+                            <div class="form-group">
+                                <label for="licensePlate">License Plate:</label>
+                                <input type="text" class="form-control rounded-0 shadow-sm" id="licensePlate" placeholder="NN-NN-LL,NN-LL-NN,....etc">
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <label for="entryDate">Entry Date:</label>
+                                    <input type="date" class="form-control rounded-0 shadow-sm" id="entryDate">
+                                </div>
+                                <div class="col-6">
+                                    <label for="exitDate">Exit Date:</label>
+                                    <input type="date" class="form-control rounded-0 shadow-sm" id="exitDate">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn mx-auto d-block mt-5 rounded-0 shadow" id="btnOne">Add Car</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+        <section id="table" class="table-and-list">
+            <div class="container">
+                <h5 class="text-center mb-3">List of Cars in Parking Lot</h5>
+            <input type="text" class="w-100 mb-3" id="searchInput" placeholder="Search...">
+            <table class="table table-striped shadow " id="parkingTable">
+                    <thead class="text-white" id="tableHead">
+                      <tr>
+                        <th scope="col">Owner</th>
+                        <th scope="col">Car</th>
+                        <th scope="col">License Plate</th>
+                        <th scope="col">Entry Date</th>
+                        <th scope="col">Exit Date</th>
+                        <th scope="col">Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                     
+                    </tbody>
+                  </table>
+
+            </div>
+            <script src="/Resources/js/core.js"></script>
+    </section>
+	
+<section class="our-guest">
+    <div class="container">
+        <h1 class="section-heading"><span>Our</span> Sponsors</h1>
+        <p>We provide best parking service all over India.</p>
+
+        <div class="slider">
+            <div class="slide">
+                <img src="img/lady.jpg" alt="">
+                <p>CEO of worlds most renowned company. Eos, id ea. Debitis quam ipsam
+                    dolor
+                    molestiae fuga molestias fugit, aliquid suscipit maiores quod nisi ut provident adipisci
+                    soluta
+                    .</p>
+                <span>-Dan ,Company XYZ</span>
+
+            </div>
+            <div class="slide">
+                <img src="img/guest1.jpg" alt="">
+                <p>CEO of worlds most renowned company. Eos, id ea. Debitis quam ipsam
+                    dolor
+                    molestiae fuga molestias fugit, aliquid suscipit maiores quod nisi ut provident adipisci
+                    soluta
+                    .</p>
+                <span>-Marco ,Company XYZ</span>
+
+            </div>
+            <div class="slide">
+                <img src="img/lady.jpg" alt="">
+                <p>CEO of worlds most renowned company. Eos, id ea. Debitis quam ipsam
+                    dolor
+                    molestiae fuga molestias fugit, aliquid suscipit maiores quod nisi ut provident adipisci
+                    soluta
+                    .</p>
+                <span>-Alexa ,Company XYZ</span>
+
+            </div>
+            <div class="slide">
+                <img src="img/guest3.jpg" alt="">
+                <p>CEO of worlds most renowned company. Eos, id ea. Debitis quam ipsam
+                    dolor
+                    molestiae fuga molestias fugit, aliquid suscipit maiores quod nisi ut provident adipisci
+                    soluta
+                    .</p>
+                <span>-Johny ,Company XYZ</span>
+
+            </div>
+
+
+
+        </div>
+        <div class="slider-dots"></div>
+    </div>
+</section>
+<footer id="footer">
+    <div class="container">
+        <div class="flex column align-content justify-item">
+            <div class="footer-logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="footer-social social-2 flex">
+                <a href="https://www.facebook.com" target="blank"><img src="img/facebook.png" alt=""></a>
+                <a href="https://www.instagram.com" target="blank"><img src="img/instagram.png" alt=""></a>
+                <a href="https://www.google.com" target="blank"><img src="img/internet.png" alt=""></a>
+                <a href="https://www.pinterest.com" target="blank"><img src="img/pinterest.png" alt=""></a>
+                <a href="https://www.twitter.com" target="blank"><img src="img/twitter.png" alt=""></a>
+            </div>
+            <div class="copyright">
+                Copyright &copy;www.myParkinGrid.com.All rights reserved
+            </div>
+        </div>
+
+    </div>
+</footer>
+</div>
+
+<!-- for making slider we need this js   -->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+<script src="/Resources/js/script.js"></script>
+
+</body>
+
+</html>
